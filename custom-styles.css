@@ -2,7 +2,9 @@
     position: relative;
     justify-items: flex-start;
 }
-
+.frame-color {
+    display: block !important;
+}
 .option:first-child > .variat-title {
     display: none;
 }
