@@ -1,0 +1,49 @@
+		.option:first-child {
+    	position: relative;
+      justify-items: flex-start;
+    }
+    .option:first-child > .variat-title {
+    	display: none;
+    }
+    .option:first-child > .button-group {
+    	display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-items: flex-start;
+      border: 1px solid transparent;
+    }
+    .option:first-child > .button-group > .button {
+    	width: 30px;
+      height: 30px;
+      border: 1px solid transparent;
+      border-radius: 1000px;
+      padding: 0px;
+      margin-right: 5px;
+      position: static;
+      
+    }
+    .option:first-child > .button-group > .button > .button-text {
+    	font-family: Copperplate Gothic Medium, sans-serif;
+    	position: absolute;
+      top: -41px;
+    	left: 102px;
+      color: transparent;
+    }
+    .option:first-child > .button-group > .button > .check-image {
+    	display: none;
+    }
+    .option:first-child > .button-group > .button.w--ecommerce-pill-selected {
+    	border: 2px solid #000;
+      filter: none;
+      color: #000;
+    }
+     .option:first-child > .button-group > .button.w--ecommerce-pill-selected > .button-text {
+    	color: #5B5C5E;
+    }
+    
+    @media screen and (max-width: 479px) {
+    	.option:first-child > .button-group > .button > .button-text {
+          top: -39px;
+          left: 88px;
+        }
+        }
